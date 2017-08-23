@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<drawable name="darkgray">#808080FF</drawable>
+<drawable name="white">#FFFFFF</drawable>
+<drawable name="red">#7f00</drawable>
+<drawable name="blue">#ffdee7f7</drawable>
+<drawable name="orange">#00000000</drawable>
+<color name="color_ff6f84a3">#EE7600</color>
+<color name="transparent">#00000000</color>
+<color name="black">#000000</color>
+<color name="white">#FFFFFF</color>
+<color name="bottomBlack">#DC143C</color>
+<color name="titleTop">#FF4040</color>
+<color name="titleToptest">#cb5200</color>
+<color name="bg">#3fcdff</color>
+</resources>

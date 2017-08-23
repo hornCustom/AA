@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main"
+    >
+   
+    <TextView 
+        style="@style/Help"
+        android:text="@string/help"/>
+      <TextView 
+         style="@style/Helpson"
+          android:text="1,长按条目可添加和删除账本以及用户 \n2,点击统计管理后再点下标栏即可弹出导出表格功能,系统默认导出到sd卡"/>
+    <TextView 
+        style="@style/Help"
+        android:text="@string/about"/>
+    	<TextView 
+         style="@style/Helpson"
+          android:text="本软件主要用于AA制消费后的分账\n此款软件的数据提供导出表格功能"/>
+    <TextView 
+        style="@style/Help"
+        android:text="@string/advise"/>
+    <TextView 
+         style="@style/Helpson"
+          android:text="本软件处于测试阶段\n如有BUG请谅解\n欢迎给我留言(留也没用)"/>
+    <TextView 
+        style="@style/Help"
+        android:text="@string/update"/>
+    <TextView 
+         style="@style/Helpson"
+          android:text="此为先行版，功能还不完善待更新(看心情)……"/>
+
+</LinearLayout>

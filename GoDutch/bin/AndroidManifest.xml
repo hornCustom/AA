@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobidever"
+    android:versionCode="1"
+    android:versionName="1.1" >
+	 <uses-sdk android:minSdkVersion="8" />
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.mobidever.activity.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.mobidever.activity.ActivityMain" />
+        <activity android:name="com.mobidever.activity.ActivityUser" />
+        <activity android:name="com.mobidever.activity.ActivityAccountBook" />
+        <activity android:name="com.mobidever.activity.ActivityCategory" />
+        <activity android:name="com.mobidever.activity.ActivityCategoryAddOrEdit" />
+        <activity android:name="com.mobidever.activity.ActivityCategoryChart" />
+        <activity android:name="com.mobidever.activity.ActivityPayoutAddOrEdit" />
+        <activity android:name="com.mobidever.activity.ActivityPayout" />
+        <activity android:name="com.mobidever.activity.ActivityStatistics" />
+        <activity android:name="com.mobidever.activity.AboutActivity" />
+
+
+        <service android:name=".service.ServiceDatabaseBackup" />
+    </application>
+
+
+</manifest>
