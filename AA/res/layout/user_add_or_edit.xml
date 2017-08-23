@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+    <!-- maxLenght 字符长度20 防止用户超出字符限制  -->
+    <EditText
+    android:id="@+id/etUserName"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/etUserNameHint"
+    android:maxLength="20"
+    
+    />
+
+</LinearLayout>

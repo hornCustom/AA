@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="SlideMenuActivityMain">
+        <item>软件帮助</item>
+        <item>关于软件</item>
+        <item>建议反馈</item>
+        <item>软件更新</item>
+</string-array>
+
+    <string-array name="SlieMenuUser">
+        <item>新建人员</item>
+</string-array>
+
+    <string-array name="SlieMenuAccountBook">
+        <item>新建账本</item>
+</string-array>
+
+<string-array name="SlieMenuCategory">
+        <item>新建类别</item>
+        <item>统计类别</item>
+</string-array>
+
+<string-array name="SlieMenuPayout">
+        <item>切换账本</item>
+</string-array>
+
+<string-array name="SlieMenuStatistics">
+        <item>切换账本</item>
+        <item>导出表格</item>
+</string-array>
+<string-array name="InitDefaultUserName">
+        <item>张三</item>
+        <item>李四</item>
+</string-array>
+
+    <string-array name="SQLiteDALClassName">
+        <item>SQLiteDALUser</item>
+</string-array>
+
+</resources>
